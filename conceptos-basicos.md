@@ -104,3 +104,8 @@ Power BI nos permite conectarnos a una amplia variedad de fuentes de datos, desd
 | componente almacenado en la fuente de datos | ![Componente almacenado en la fuente de datos Live Connectivity](https://i.imgur.com/uOq6szv.png) | ![Componente almacenado en el origen de datos Compuesto](https://i.imgur.com/oMSfzis.png)                     |                                                                                         | ![Componente almacenado en el origen de datos Compuesto](https://i.imgur.com/oMSfzis.png) |
 |      componente almacenado en Power BI      | ![Componente almacenado en Power BI Live Connectivity](https://i.imgur.com/BJWgiCM.png)           | <p></p><p><img src="https://i.imgur.com/nxKlSPc.png" alt="Component stored within Power BI Direct Query"></p> | ![Componente almacenado en la importación de Power BI](https://i.imgur.com/RxA0ZLe.png) | ![Componente almacenado en la importación de Power BI](https://i.imgur.com/RxA0ZLe.png)   |
 
+**Avisos**:
+
+* Con _**Conectividad de Importación**_, el archivo PBIX y el dataset son alojados en la memoria, **es el más rápido de todos los tipos de conectividad**, pero el dataset de Power BI debe programarse para actualizarse, y siempre debemos tener en cuenta el uso de la memoria. Con **licencias PRO**, el dataset de Power BI **no puede exceder 1 GB**, sin embargo, con **Power BI PREMIUM** esto puede alcanzar niveles de **400 GB**
+
+![Importar iconos](https://i.imgur.com/ojeJtvh.png)
