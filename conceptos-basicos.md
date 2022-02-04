@@ -108,7 +108,7 @@ Power BI nos permite conectarnos a una amplia variedad de fuentes de datos, desd
 
 * Con _**conectividad de Importación**_, el archivo PBIX y el dataset son alojados en la memoria, **es el más rápido de todos los tipos de conectividad**, pero el dataset de Power BI debe programarse para actualizarse, y siempre debemos tener en cuenta el uso de la memoria. Con **licencias PRO**, el dataset de Power BI **no puede exceder 1 GB**, sin embargo, con **Power BI PREMIUM** esto puede alcanzar niveles de **400 GB**
 
-![Importar iconos](https://i.imgur.com/ojeJtvh.png)
+![Iconos de Importar ](https://i.imgur.com/ojeJtvh.png)
 
 * Con _**conectividad DirectQuery**_ **no se alimenta ni almacena ningún dato** en el modelo de Power BI. Power BI solo almacenará los **metadatos de los datos subyacentes, por lo tanto, los nombres de las tablas, las relaciones, los nombres de los campos, etc., pero no los datos actuales**. Al no almacenar ningún dato en el modelo de Power BI, significa que **podemos almacenar mayores volúmenes de datos** y hay **menos posibilidades de que encontremos alguna de las limitaciones de volumen de datos en el dataset de Power BI**, como el dataset de 1 GB que viene con la licencia PRO. DirectQuery **solo está disponible con fuentes de bases de datos**
 
@@ -116,6 +116,6 @@ En este modelo de conectividad, las consultas se generarán y enviarán directam
 
 El uso de DirectQuery **limita las capacidades de Power BI Desktop**. **Por ejemplo, las funciones DAX de inteligencia de tiempo**, como el mismo período del año pasado, no están disponibles con el fin de limitar la complejidad de las consultas enviadas a la fuente de datos subyacente y algunas transformaciones **en Power Query están restringidas, como eliminar duplicados y cambio a algunos tipos de datos**. Además, Power BI **solo permite que DirectQuery devuelva 1 millón de filas del origen de datos subyacente a menos que usemos Power BI PREMIUM**
 
-![Iconos de consulta directa](https://i.imgur.com/79shM9h.png)
+![Iconos de Direct Query](https://i.imgur.com/79shM9h.png)
 
 * Es muy común encontrar que _**LiveConnection**_ se confunde con DirectQuery debido a que ambos tipos de conectividad no almacenan ningún dato en el modelo de Power BI. Sin embargo, son dos tipos de conectividad muy diferentes y no se pueden usar indistintamente. El uso de LiveConnection significa que **no se almacenan datos en el modelo de Power BI, por lo que toda interacción con un informe mediante LiveConnection consultará directamente el modelo de Analysis Services existente**
