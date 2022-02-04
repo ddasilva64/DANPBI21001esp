@@ -56,10 +56,10 @@
 * No es posible colaborar con otros usuarios simultáneamente (informes, dashboards y dataset), pero es posible publicar en sitios web (sin seguridad)
 * El intercambio de informes solo es posible en modo público (sin seguridad)
 
-**Arquitectura Power BI Pro**
+**Arquitectura Power BI PRO**
 
 * Incluye 10 GB de almacenamiento
-* Se puede compartir con usuarios internos siempre que también tengan una licencia Pro
+* Se puede compartir con usuarios internos siempre que también tengan una licencia PRO
 * Gateway opcional
 * Puede actualizar datos hasta 8 veces al día
 * El creador (en Desktop) y el usuario (en Service) deben tener, cada uno, una licencia
