@@ -75,3 +75,16 @@
 **Aviso**: Nada de esto se puede iniciar con una cuenta de correo electrónico personal, sino solo con una cuenta de correo electrónico empresarial o educativa
 
 ![Arquitectura Power BI](https://i.imgur.com/x4S1XfN.png)
+
+### Tipos de conexión
+
+**Tipos de conexiones**
+
+Power BI nos permite conectarnos a una amplia variedad de fuentes de datos, desde archivos de Excel, bases de datos de SQL Server, sitios web, etc.
+
+**Tipos de conexión**
+
+* **Live Connection o dinámica**: lea desde SSAS o desde un dataset del servicio Power BI, en otras palabras, los datos se almacenan fuera de Power BI (como en Direct Query)
+* **Direct Query**: No se copian los datos, ya que cada interacción hace una consulta a la base de datos
+* **Importación**: Los datos se copian localmente dentro del modelo de Power BI (este es el modelo más común)
+* **Modelos Compuestos**: Combinan tecnologías de Importación y Direct Query. También permite usar múltiples datasets
