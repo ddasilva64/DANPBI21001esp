@@ -47,3 +47,19 @@
 
 * **Power Query ETL**: Extracción, transformación y carga de datos
 * **Modelado Power Pivot (DAX)**: Responde todas las preguntas empresariales
+
+### Arquitectura de Power BI
+
+**Arquitectura de Power BI gratis**
+
+* Incluye 1 GB de almacenamiento
+* No es posible colaborar con otros usuarios simultáneamente (informes, dashboards y dataset), pero es posible publicar en sitios web (sin seguridad)
+* El intercambio de informes solo es posible en modo público (sin seguridad)
+
+**Arquitectura Power BI Pro**
+
+* Incluye 10 GB de almacenamiento
+* Se puede compartir con usuarios internos siempre que también tengan una licencia Pro
+* Gateway opcional
+* Puede actualizar datos hasta 8 veces al día
+* El creador (en Desktop) y el usuario (en Service) deben tener, cada uno, una licencia
