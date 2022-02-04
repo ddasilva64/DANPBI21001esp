@@ -63,3 +63,15 @@
 * Gateway opcional
 * Puede actualizar datos hasta 8 veces al día
 * El creador (en Desktop) y el usuario (en Service) deben tener, cada uno, una licencia
+
+**Arquitectura Power BI PREMIUM**
+
+* Incluye 100 TB de almacenamiento
+* Se puede compartir con usuarios internos sin necesidad de que tengan Power BI PRO
+* Mayor escalabilidad y rendimiento que la capacidad compartida en el servicio Power BI
+* Puede actualizar datos hasta 48 veces al día
+* El creador (en Desktop) y el usuario (en Service) deben tener, cada uno, una licencia
+
+**Aviso**: Nada de esto se puede iniciar con una cuenta de correo electrónico personal, sino solo con una cuenta de correo electrónico empresarial o educativa
+
+![Arquitectura Power BI](https://i.imgur.com/x4S1XfN.png)
