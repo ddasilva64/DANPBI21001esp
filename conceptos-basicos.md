@@ -22,7 +22,7 @@
   * Optimización (para responder a todas las preguntas de negocio)
   * Herramientas: Erwin Data Modeler, PowerDesigner (herramienta de modelado SAP), Power Pivot (en Power BI)
     * **Data Warehouse**: Suele servir como la base de datos central de una empresa o, en otras palabras, la base de datos donde se almacenan todos los datos útiles de una organización
-    * **Data Mart**: Almacena conjuntos de datos específicos y concisos utilizados para el análisis de un departamento o línea de negocio específicos, como el departamento de ventas
+    * **Data Mart**: Almacena datasets específicos y concisos utilizados para el análisis de un departamento o línea de negocio específicos, como el departamento de ventas
 
 ![Modelado en Power BI](https://i.imgur.com/g6tBXTY.png)
 
@@ -119,3 +119,7 @@ El uso de DirectQuery **limita las capacidades de Power BI Desktop**. **Por ejem
 ![Iconos de Direct Query](https://i.imgur.com/79shM9h.png)
 
 * Es muy común encontrar que _**LiveConnection**_ se confunde con DirectQuery debido a que ambos tipos de conectividad no almacenan ningún dato en el modelo de Power BI. Sin embargo, son dos tipos de conectividad muy diferentes y no se pueden usar indistintamente. El uso de LiveConnection significa que **no se almacenan datos en el modelo de Power BI, por lo que toda interacción con un informe mediante LiveConnection consultará directamente el modelo de Analysis Services existente**
+
+**LiveConnection se puede emplear con SQL Server Analysis Services (modelos tabulares y cubos multidimensionales), Azure Analysis Services (modelos tabulares) y datasets de Power BI alojados en el servicio Power BI**. Como estas fuentes son motores analíticos, **el rendimiento general será mucho mayor en comparación con DirectQuery**. Además, todas estas fuentes pueden ofrecer una capa semántica que actúa como una versión única de la verdad, ofreciendo a la empresa una capa dorada de datos bien gobernados y de alta integridad, por lo tanto, se usa comúnmente en implementaciones empresariales de Power BI, pero solo con nombres. fuentes de datos
+
+El uso de LiveConnection tiene algunas restricciones desde la perspectiva de la creación. Sin embargo, como todo el trabajo se ha realizado en Analysis Services o en un conjunto de datos de Power BI existente, simplemente estamos aprovechando un modelo de nivel empresarial existente, por lo que tiene sentido que existan restricciones en las capacidades de transformación y modelado de datos. Además, **existen algunas limitaciones en las medidas DAX que se pueden escribir, ya que únicamente las medidas de nivel de informe están disponibles** en él. Esto significa que las **medidas se almacenan en el informe de Power BI y no se vuelven a escribir en el modelo de Analysis Services**. Todas las capacidades de generación de informes están disponibles para su uso
