@@ -28,6 +28,19 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 
 ### Transformaciones
 
+**Transformar**: **Dar forma a los datos**
+
+**Transformaciones comunes**:
+
+* Cambiar el nombre de las columnas o las tablas
+* Cambiar el tipo de dato (convertir texto en números, por ejemplo)
+* Quitar filas
+* Configurar la primera fila como encabezado
+* Agregar columnas
+* Dividir columnas
+* Reemplazar valores
+* Filtrar datos
+
 ### Combinaciones
 
 **Adjuntar**
@@ -48,3 +61,9 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 * Esta funcionalidad nos permite extraer las tablas de los archivos a través de un proceso automatizado
 * Suele usarse a través del conector de carpetas
 * Es especialmente útil cuando la fuente de información está demasiado fragmentada para la operación de agregar
+
+**Combinaciones comunes**:
+
+* Anexar consultas
+* Combinar consultas
+* Combinar binarios
