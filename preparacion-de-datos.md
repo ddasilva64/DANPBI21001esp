@@ -42,3 +42,9 @@ Es una tecnología de conexión de datos que nos permite descubrir, conectar, co
 * La funcionalidad de combinar consultas. Nos permite tomar dos tablas y cruzarlas usando una columna común
 * Suele usarse para complementar información en una tabla
 * Es el equivalente más cercano a la función **JOIN** del estándar SQL
+
+**Combinar binarios**
+
+* Esta funcionalidad nos permite extraer las tablas de los archivos a través de un proceso automatizado
+* Suele usarse a través del conector de carpetas
+* Es especialmente útil cuando la fuente de información está demasiado fragmentada para la operación de agregar
