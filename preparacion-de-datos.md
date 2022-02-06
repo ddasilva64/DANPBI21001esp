@@ -77,8 +77,8 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 
 **Combinar**
 
-* La funcionalidad de combinar consultas. Nos permite tomar dos tablas y cruzarlas usando una columna común
-* Suele usarse para complementar información en una tabla
+* Nos permite tomar dos tablas y cruzarlas mediante uno o más campos en común
+* Suele usarse para complementar información de una tabla
 * Es el equivalente más cercano a la función **JOIN** del estándar SQL
 
 **Combinar binarios**
