@@ -13,3 +13,14 @@ El área de trabajo define el conjunto de usuarios que tienen acceso a datos, in
 * Asignar roles específicos
 * Áreas separadas de la organización.
 * Creación de aplicaciones y plantillas de aplicaciones
+
+### Create a dashboard in Power BI
+
+### Deploy a gateway with Power BI Service
+
+It's a component that facilitates network data access (access controller), which allows users to be granted their connection as long as they meet certain criteria
+
+**Gateway Types**
+
+* **Personal mode**: allows a single user to connect to sources without them being able to be shared
+* **Multiple Mode**: Allows multiple users to connect to multiple local data sources
