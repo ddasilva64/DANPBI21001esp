@@ -68,11 +68,11 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 * Combinar consultas
 * Combinar binarios
 
-**Adjuntar**
+**Anexar**
 
-* Permite unir dos o más mesas
-* Se recomienda que ambos tengan la misma estructura, de no ser así el sistema agrega los campos de todos los demás con valores nulos al conjunto final
-* Es similar a una operación estándar de SQL **UNION**
+* Permite unir dos o más tablas
+* Se recomienda que ambas tengan la misma estructura, si no, el sistema añade al conjunto final los campos no coincidentes con valores nulos
+* Es similar a una operación **UNION** del estándar SQL
 * Los resultados pueden ser una nueva consulta o agregarse a un paso existente
 
 **Combinar**
