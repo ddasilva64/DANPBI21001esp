@@ -7,4 +7,4 @@
 * [Visualización de datos](visualizacion-de-datos.md)
 * [Análisis de datos](analisis-de-datos.md)
 * [Entrega de datos](entrega-de-datos.md)
-* [Page 1](page-1.md)
+* [Lecturas o herramientas recomendadas](lecturas-o-herramientas-recomendadas.md)
