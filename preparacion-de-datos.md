@@ -29,3 +29,16 @@ Es una tecnología de conexión de datos que nos permite descubrir, conectar, co
 ### Transformaciones
 
 ### Combinaciones
+
+**Adjuntar**
+
+* Permite unir dos o más mesas
+* Se recomienda que ambos tengan la misma estructura, de no ser así el sistema agrega los campos de todos los demás con valores nulos al conjunto final
+* Es similar a una operación estándar de SQL **UNION**
+* Los resultados pueden ser una nueva consulta o agregarse a un paso existente
+
+**Combinar**
+
+* La funcionalidad de combinar consultas. Nos permite tomar dos tablas y cruzarlas usando una columna común
+* Suele usarse para complementar información en una tabla
+* Es el equivalente más cercano a la función **JOIN** del estándar SQL
