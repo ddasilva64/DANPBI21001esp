@@ -74,15 +74,40 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 * Se recomienda que ambas tengan la misma estructura, si no, el sistema añade al conjunto final los campos no coincidentes con valores nulos
 * Es similar a una operación **UNION** del estándar SQL
 * Los resultados pueden ser una nueva consulta o agregarse a un paso existente
+* Pasos:&#x20;
+  * En Transformar datos (Power Query)&#x20;
+  * Menú Combinar/Anexar consultas
 
 **Combinar**
 
 * Nos permite tomar dos tablas y cruzarlas mediante uno o más campos en común
 * Suele usarse para complementar información de una tabla
 * Es el equivalente más cercano a la función **JOIN** del estándar SQL
+* Pasos:
+  * Se cargan las tablas normalmente
+  * En Transformar datos (Power Query)
+  * Elegimos la tabla (de las dos), que queremos combinar con la otra
+  * Menú Combinar/Combinar consultas para crear una nueva
+  * Elegimos el/los campo/s de combinación&#x20;
+  * Elegimos el tipo de combinación&#x20;
+  * Elegimos los campos de la segunda tabla que queremos obtener
+
+
+
+![Tipos de combinación](https://i.imgur.com/3nRBAL6.png)
 
 **Combinar binarios**
 
 * Esta funcionalidad nos permite extraer las tablas de los archivos a través de un proceso automatizado
-* Suele usarse a través del conector de carpetas
-* Es especialmente útil cuando la fuente de información está demasiado fragmentada para la operación de agregar
+* Suele usarse a través del conector de carpeta
+* Es especialmente útil cuando la fuente de información está demasiado fragmentada para la operación de anexar, en lugar de cargar tabla a tabla de cada archivo los cargamos todos de forma automática
+* Pasos:
+  * Nos proporcionan un fichero Excel de ventas de manera semanal o mensual (por ejemplo)
+  * Los campos dentro de los ficheros deben tener la misma estructura y además, llamarse igual
+  * Elegiremos un campo para combinar los ficheros en la operación
+  * Ir a: Obtener datos/Más/Carpeta y conectarnos
+  * Botón Combinar
+  * Opción Combinar y Cargar
+  * En la pantalla Combinar archivos elegimos el parámetro de combinación (una de las tablas)
+  * Extraer y anexar
+
