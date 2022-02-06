@@ -20,9 +20,9 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 
 **Puntos a considerar**
 
-* El propósito de Power Query es obtener datos de una variedad de fuentes y prepararlos para un análisis posterior
-* El propósito de esta herramienta no es analizar los datos
-* Magia: Colección de pasos realizados para llegar a un resultado, también permite retroceder o avanzar sin modificar la fuente de datos. Similar al proceso que realiza una macro en Excel
+* El **objetivo** del **Power Query** es **obtener datos** de una variedad de fuentes **y prepararlos para su posterior análisis**
+* El **objetivo** de esta herramienta **no es analizar los datos**
+* **Magia**: Es la **colección de pasos** que se realizan **para llegar a un resultado**, además **permite retroceder o avanzar estos, sin modificar el origen de datos**. Es similar al proceso que realiza un macro en Excel
 
 ![Consulta de energía](https://i.imgur.com/zIjUUnw.jpg)
 
