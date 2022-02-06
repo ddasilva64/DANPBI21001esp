@@ -14,9 +14,9 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 
 **¿Qué hace Power Query?**
 
-* **Extracto**: Desde prácticamente cualquier fuente de datos
-* **Transformar**: Desde fusionar, combinar, limpiar o enriquecer los datos
-* **Subir**: Los datos para su posterior análisis en Power BI
+* **Extrae**: Desde prácticamente cualquier fuente de datos
+* **Transforma**: Fusiona, combina, limpia o enriquece los datos
+* **Carga**: Los datos para su posterior análisis en Power BI
 
 **Puntos a considerar**
 
