@@ -24,7 +24,7 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 * El **objetivo** de esta herramienta **no es analizar los datos**
 * **Magia**: Es la **colección de pasos** que se realizan **para llegar a un resultado**, además **permite retroceder o avanzar estos, sin modificar el origen de datos**. Es similar al proceso que realiza un macro en Excel
 
-![Consulta de energía](https://i.imgur.com/zIjUUnw.jpg)
+![Power Query](https://i.imgur.com/zIjUUnw.jpg)
 
 ### Transformaciones
 
