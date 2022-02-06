@@ -6,3 +6,4 @@
 * [Modelado de datos](modelado-de-datos.md)
 * [Visualización de datos](visualizacion-de-datos.md)
 * [Análisis de datos](analisis-de-datos.md)
+* [Entrega de datos](entrega-de-datos.md)
