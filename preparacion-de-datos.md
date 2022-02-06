@@ -8,9 +8,9 @@
 
 ### Transformar datos con Power Query
 
-**Consulta de poder**
+**Power Query**
 
-Es una tecnología de conexión de datos que nos permite descubrir, conectar, combinar y refinar fuentes de datos dispares para satisfacer nuestras necesidades de análisis
+Es una tecnología de conexión de datos que permite detectar, conectar, combinar y refinar distintas fuentes de datos para satisfacer las necesidades de análisis
 
 **¿Qué hace Power Query?**
 
