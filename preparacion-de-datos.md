@@ -26,6 +26,11 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 
 ![Power Query](https://i.imgur.com/zIjUUnw.jpg)
 
+### Tipos de datos
+
+* A diferencia de otros programas como Excel, donde los tipos de datos son muy flexibles, en Power BI necesitamos definirlos bien, antes de poder utilizarlos
+* Como en las bases de datos relacionales, **cada columna debe tener bien definido su tipo para evitar errores**
+
 ### Transformaciones
 
 **Transformar**: **Dar forma a los datos**
