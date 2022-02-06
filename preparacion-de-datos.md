@@ -43,6 +43,14 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 
 ### Combinaciones
 
+**Combinar**: Conectarse a **dos o más orígenes de datos**, **darles la forma** necesaria **y consolidarlos** después en una consulta útil
+
+**Combinaciones comunes**:
+
+* Anexar consultas
+* Combinar consultas
+* Combinar binarios
+
 **Adjuntar**
 
 * Permite unir dos o más mesas
@@ -61,9 +69,3 @@ Es una tecnología de conexión de datos que permite detectar, conectar, combina
 * Esta funcionalidad nos permite extraer las tablas de los archivos a través de un proceso automatizado
 * Suele usarse a través del conector de carpetas
 * Es especialmente útil cuando la fuente de información está demasiado fragmentada para la operación de agregar
-
-**Combinaciones comunes**:
-
-* Anexar consultas
-* Combinar consultas
-* Combinar binarios
