@@ -51,3 +51,13 @@ Es un lenguaje de expresión donde utiliza fórmulas analíticas y funciones ope
 El nombre de la tabla se puede omitir cuando se usa en columnas calculadas, pero no se recomienda hacerlo.
 
 ### Usar CALCULATE
+
+### Inteligencia del tiempo
+
+Se refiere a las técnicas, herramientas y metodologías que nos permiten analizar de forma exhaustiva nuestras mediciones a través del concepto de “tiempo”, es decir, está presente en todas las soluciones de inteligencia de negocios como punto de partida para explorar la información:
+
+* A partir de analizar la evolución de nuestras medidas en el tiempo, se utiliza una nueva dimensión (tablas) Fechas y calendario de forma continua sin que falte un solo día entre las fechas, esto funciona en nuestro modelo
+* Supervisar el crecimiento o disminución en detalle
+* Hacer proyecciones
+
+### Iteradores X
