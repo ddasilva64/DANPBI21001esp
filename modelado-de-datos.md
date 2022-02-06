@@ -27,3 +27,17 @@ El modelo de datos se puede hacer de dos maneras; uno que es el modelo estrella 
 
 1. **Diseño de Modelo de Datos**: El Modelo de Esquema en Estrella es el más utilizado en Power Bi porque está compuesto por una tabla de dimensiones (Búsqueda) y una tabla de Hechos (transaccional) donde la integración de ambas sobresale el uno a -muchas relaciones y por lo tanto, evita la redundancia de datos
 2. **Data Model Engine**: VERTIPAQ se encarga de las operaciones de análisis de datos (DAX) y utiliza tecnología (in-memory) que proporciona un alto rendimiento para almacenar y consultar datos
+
+### Lenguaje DAX
+
+Es un lenguaje de expresión donde utiliza fórmulas analíticas y funciones operativas que permiten el cálculo de uno o más valores, creado para manipular un modelo de datos tabular y está basado en Excel; de ahí su similitud en términos de estructura de formulación. Podemos encontrar este lenguaje en Power BI, SAS Tabular y Excel en el plugin Power Query
+
+**¿Por qué DAX?**
+
+* Relaciones de Navegación
+* Cálculo de Dimensiones
+* Gestión de las Dimensiones del Tiempo (Time Intelligence)
+
+**¿Qué podemos crear?**
+
+* **Columnas calculadas**: permite que los métodos conecten tablas con múltiples columnas clave y creen nuevas columnas en el modelo de datos
