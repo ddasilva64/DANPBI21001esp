@@ -2,9 +2,9 @@
 
 ### ¿Qué es ETL?
 
-* **Extracción**: Desde prácticamente cualquier fuente de datos, desde archivos planos hasta complejos, bases de datos o servicios en la nube
-* **Transformar**: Permite modificar o enriquecer la información extraída sin modificar la fuente
-* **Cargar**: Una vez realizada la transformación, se encarga de cargar el resultado al modelo de datos
+* **Extract (extraer)**: Desde prácticamente cualquier fuente de datos, desde archivos planos hasta complejos, bases de datos o servicios cloud&#x20;
+* **Transform (transformar)**: Permite modificar o enriquecer la información extraída sin modificar la fuente&#x20;
+* **Load(cargar)**: Una vez realizada la transformación, se encarga de cargar el resultado en el modelo de datos
 
 ### Transformar datos con Power Query
 
