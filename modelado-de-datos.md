@@ -41,3 +41,13 @@ Es un lenguaje de expresión donde utiliza fórmulas analíticas y funciones ope
 **¿Qué podemos crear?**
 
 * **Columnas calculadas**: permite que los métodos conecten tablas con múltiples columnas clave y creen nuevas columnas en el modelo de datos
+* **Tablas Calculadas**: crea una tabla derivada de otra tabla
+* **Medidas**: admite inteligencia de tiempo y crea cálculos dinámicos, que es el más utilizado en Power BI
+
+**Convenciones del idioma (formato general)**
+
+* 'nombre de tabla' \[nombre de columna] Ejemplo: 'productos de mesa'\[Precio]
+
+El nombre de la tabla se puede omitir cuando se usa en columnas calculadas, pero no se recomienda hacerlo.
+
+### Usar CALCULATE
