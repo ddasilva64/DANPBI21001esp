@@ -162,6 +162,8 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Sintaxis: SUM(\[Precio venta]\*\[Cantidad])
 * La función SUM() nos devuelve un error porque solo admite como parámetro una columna
 
+![Simulación 3 - SUM -](https://i.imgur.com/4ZuPmuL.png)
+
 **SUMX**:
 
 * En cambio, la función SUMX () sí que nos lo permite porque admite una expresión además de una columna:
