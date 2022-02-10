@@ -96,10 +96,15 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 ### Inteligencia del tiempo
 
-Se refiere a las técnicas, herramientas y metodologías que nos permiten analizar de forma exhaustiva nuestras mediciones a través del concepto de “tiempo”, es decir, está presente en todas las soluciones de inteligencia de negocios como punto de partida para explorar la información:
+* Por Inteligencia de tiempo, hacemos referencia a las técnicas, herramientas y metodologías que nos permiten analizar nuestras medidas minuciosamente a través del tiempo
+* El concepto de “tiempo” está presente en todas las soluciones de inteligencia de negocios. Sirve como punto de partida para explotar la información
 
-* A partir de analizar la evolución de nuestras medidas en el tiempo, se utiliza una nueva dimensión (tablas) Fechas y calendario de forma continua sin que falte un solo día entre las fechas, esto funciona en nuestro modelo
-* Supervisar el crecimiento o disminución en detalle
-* Hacer proyecciones
+**Tabla de fechas**
+
+* Para poder utilizar este tipo de análisis dentro de Power BI, necesitaremos primero de crear una nueva dimensión
+* A estas tablas se les conoce como tablas de fechas o tabla calendario, y funciona como una nueva dimensión para nuestro modelo
+* Una tabla de fechas se identifica por tener todas las fechas existentes en nuestro modelo (o al menos las necesarias para el análisis) de manera continua. Es decir, sin que falte ni un solo día entre las fechas
+* Permite supervisar el crecimiento o disminución en detalle
+* Permite hacer proyecciones
 
 ### Iteradores X
