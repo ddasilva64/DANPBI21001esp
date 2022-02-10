@@ -148,6 +148,8 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 3\. Calcular las ventas totales. En este modelo, a diferencia del anterior, no tenemos una columna con el importe de cada fila, pero podemos calcularlo usando las columnas Precio venta y Cantidad en la expresión:\[Precio venta]\*\[Cantidad]
 
+![Resultado de la simulación 2](https://i.imgur.com/YD5FtQt.png)
+
 **SUM**:
 
 * Sintaxis: SUM(\[Precio venta]\*\[Cantidad])
