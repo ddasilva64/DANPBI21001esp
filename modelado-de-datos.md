@@ -91,6 +91,9 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 ### Usar CALCULATE
 
+* Se trata de una función que solo tiene dos parámetros. Nos permite realizar una acción llamada “modificador de contexto de filtro”.
+* Permite crear un contexto de fila dentro de nuestros cálculos
+
 ### Inteligencia del tiempo
 
 Se refiere a las técnicas, herramientas y metodologías que nos permiten analizar de forma exhaustiva nuestras mediciones a través del concepto de “tiempo”, es decir, está presente en todas las soluciones de inteligencia de negocios como punto de partida para explorar la información:
