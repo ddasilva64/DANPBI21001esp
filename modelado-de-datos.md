@@ -64,7 +64,11 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 ### Lenguaje DAX
 
-Es un lenguaje de expresión donde utiliza fórmulas analíticas y funciones operativas que permiten el cálculo de uno o más valores, creado para manipular un modelo de datos tabular y está basado en Excel; de ahí su similitud en términos de estructura de formulación. Podemos encontrar este lenguaje en Power BI, SAS Tabular y Excel en el plugin Power Query
+**DAX (Data Analysis Expression)**:
+
+* Lenguaje de expresiones analíticas de Power BI: **Utiliza fórmulas analíticas y funciones operativas** que permiten el cálculo de uno o más valores
+* Creado **para manipular un modelo de datos tabular**
+* Está basado en Excel; de ahí su similitud en términos de estructura de formulación. Podemos encontrar este lenguaje en Power BI, SAS Tabular y Excel en el plugin Power Query
 
 **¿Por qué DAX?**
 
