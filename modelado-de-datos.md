@@ -38,7 +38,10 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Existen distintos tipos (estrella, copo de nieve, etc.)
 * En **Power BI** nos enfocamos en el modelo de **esquema de estrella**, que es el que resulta más eficiente
 
-El modelo de datos se puede hacer de dos maneras; uno que es el modelo estrella y el otro, llamado copo de nieve o algo parecido a una cascada
+**Componentes del modelo en estrella**:
+
+* **Tablas de hechos**: También conocidas como **tablas transaccionales** o (fact en inglés). Responden a la pregunta **¿Qué quiero obtener o buscar?**
+* **Tablas dimensión**: También conocidas como **tablas de búsqueda**. Responden al nivel o **clasificación que nos interesa**, que puede ser **tiempo o tipo de dato**
 
 **Para ello es necesario conocer dos aspectos claves**
 
