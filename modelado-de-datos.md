@@ -25,6 +25,14 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * **1:n (de 1 a varios)**: Ocurre cuando se conecta una clave primaria con la clave foránea de otra tabla
 * **m:n (de varios a varios)**: Ocurre cuando ambas tablas se relacionan por sus claves foráneas (ninguna de las columnas tiene valores únicos). Evitar este tipo de relaciones
 
+**Conflictos a resolver**:
+
+1. **Relaciones m:n**: Mediante concatenación de capos clave o mediante tablas asociativas
+2. **Relaciones inactivas**:&#x20;
+   1. Borrarlas porque no son necesarias&#x20;
+   2. Pueden ser relaciones no resueltas m:n&#x20;
+   3. Muy interesante la herramienta Model Documenter
+
 El modelo de datos se puede hacer de dos maneras; uno que es el modelo estrella y el otro, llamado copo de nieve o algo parecido a una cascada
 
 **Para ello es necesario conocer dos aspectos claves**
