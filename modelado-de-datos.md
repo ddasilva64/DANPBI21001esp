@@ -108,3 +108,11 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Permite hacer proyecciones
 
 ### Iteradores X
+
+**Funciones iterativas**
+
+* Este tipo de funciones son especiales dentro de DAX y permiten crear operaciones a nivel de fila y calcular un resultado a partir de ellas
+* Las funciones iterativas también son conocidas como funciones X, por su terminación dentro de su nombre en DAX
+* Algunas de estas funciones son: SUMX, AVERAGEX, MAXX, MINX, STDEVX.S, PERCENTILEX.EXC y CONCATENATEX
+
+**Simulaciones de SUM y SUMX en Excel**:
