@@ -45,6 +45,13 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 ![Hecho y dimensión](https://i.imgur.com/gTFNcvu.png)
 
+**Motor del modelo de datos**
+
+* Su nombre es **Vertipaq**
+* Se encarga de todas las operaciones de análisis de datos (DAX)
+* Utiliza tecnología in-memory que provee un elevado almacenamiento y rendimiento en consulta de datos
+* Permite ciclos de desarrollo corto
+
 ### Solucionar problemas de modelado
 
 1. **Diseño de Modelo de Datos**: El Modelo de Esquema en Estrella es el más utilizado en Power Bi porque está compuesto por una tabla de dimensiones (Búsqueda) y una tabla de Hechos (transaccional) donde la integración de ambas sobresale el uno a -muchas relaciones y por lo tanto, evita la redundancia de datos
