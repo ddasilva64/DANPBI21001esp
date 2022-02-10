@@ -130,4 +130,5 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Devuelve la suma de una expresión evaluada por cada fila de una tabla
 * El parámetro es la tabla que contiene los valores para los cuales se evaluará la expresión. Puede ser el nombre de una tabla o una expresión que devuelve una tabla.El parámetro es una columna que contiene los números que desea sumar o una expresión que se evalúa como una columna.Solo se cuentan los números de la columna. Se omiten los espacios en blanco, los valores lógicos y el texto.
 * Suma de Importe 1 := SUMX(Tabla1; \[Importe])
-* Podemos observar que las dos funciones devuelven el mismo resultado.Lo que diferencia a ambas funciones es la forma en que realizan el calculo:La función SUMX es un iterador, recorrerá cada fila evaluando una expresión mientras que la función SUM() sumará directamente los valores de la columna.Para este caso la función SUM() es la recomendada.
+* Podemos observar que las dos funciones devuelven el mismo resultado.Lo que diferencia a ambas funciones es la forma en que realizan el calculo:La función SUMX es un iterador, recorrerá cada fila evaluando una expresión mientras que la función SUM() sumará directamente los valores de la columna.Para este caso la función SUM() es la recomendada
+
