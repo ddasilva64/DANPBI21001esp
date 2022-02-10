@@ -117,7 +117,7 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 **Simulaciones de SUM y SUMX en Excel**:
 
-![Tabla de productos (vinos de mesa)](https://i.imgur.com/YuoTGhu.png)
+![Tabla de productos (vinos)](https://i.imgur.com/YuoTGhu.png)
 
 1. Necesitamos calcular la suma del importe de todos los productos. ¿Qué función debemos utilizar?. ¿Podemos usar indistintamente una u otra?
 
