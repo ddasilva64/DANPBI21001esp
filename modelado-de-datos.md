@@ -78,11 +78,11 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Menor curva de aprendizaje para los analistas de datos. Aprovecha el conocimiento existente de trabajar con fórmulas Excel
   * Por ejemplo: = IF (Ventas > 0, “GANÓ”, “PERDIÓ”)
 
-**¿Qué podemos crear?**
+**¿Qué podemos crear con DAX?**
 
-* **Columnas calculadas**: permite que los métodos conecten tablas con múltiples columnas clave y creen nuevas columnas en el modelo de datos
-* **Tablas Calculadas**: crea una tabla derivada de otra tabla
-* **Medidas**: admite inteligencia de tiempo y crea cálculos dinámicos, que es el más utilizado en Power BI
+* **Columnas calculadas**: Permite que los métodos creen nuevas columnas en el modelo de datos. Además permite que se conecten tablas con múltiples columnas clave en una nueva columna
+* **Tablas Calculadas**: Crea una tabla derivada de otra tabla. Por ejemplo, este sistema nos permite crear tablas sin duplicados de un campo de otra tabla, para romper relaciones m:n
+* **Medidas**: Admite inteligencia de tiempo y crea cálculos dinámicos, que es lo más utilizado en Power BI
 
 **Convenciones del idioma (formato general)**
 
