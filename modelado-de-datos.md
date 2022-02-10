@@ -43,11 +43,6 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * **Tablas de hechos**: También conocidas como **tablas transaccionales** o (fact en inglés). Responden a la pregunta **¿Qué quiero obtener o buscar?**
 * **Tablas dimensión**: También conocidas como **tablas de búsqueda**. Responden al nivel o **clasificación que nos interesa**, que puede ser **tiempo o tipo de dato**
 
-**Para ello es necesario conocer dos aspectos claves**
-
-* **Hechos**: Responde a la pregunta "¿Qué quiero obtener o buscar?"
-* **Dimensiones**: Responde al nivel o clasificación que me interesa, que puede ser tiempo o tipo de dato
-
 ![Hecho y dimensión](https://i.imgur.com/gTFNcvu.png)
 
 ### Solucionar problemas de modelado
