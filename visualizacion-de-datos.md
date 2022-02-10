@@ -28,3 +28,9 @@ Es la colección de páginas segmentadas por un tema en particular y ofrece una 
 * **Marcadores**: Guardan la configuración de la vista actual del informe
 * **Botones**: Permite activar una acción de nuestro reporte
 * **Información sobre herramientas avanzada**: Permite mostrar detalles adicionales a nuestras visualizaciones
+
+![Ejemplo informe del curso](https://i.imgur.com/ISqkA4X.png)
+
+![Ejemplo informe del curso con página 2 como pop-up](https://i.imgur.com/zK1hTUM.png)
+
+Los ejemplos del curso están disponibles en GitHub
