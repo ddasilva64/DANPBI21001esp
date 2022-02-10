@@ -117,13 +117,15 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 **Simulaciones de SUM y SUMX en Excel**:
 
-![Tabla de productos (vinos)](https://i.imgur.com/YuoTGhu.png)
+
+
+![Tabla de productos](https://i.imgur.com/xWCFLYp.png)
 
 1. Necesitamos calcular la suma del importe de todos los productos. ¿Qué función debemos utilizar?. ¿Podemos usar indistintamente una u otra?
 
 **SUM**:
 
-* Agrega todos los números en una columna.
+* Agrega todos los números en una columna
 * El parámetro es la columna que contiene los números a sumar. La función acepta valores numéricos o de fecha y devuelve como resultado un valor decimal. Las filas pueden contener valores en blanco. Los valores de la columna no se pueden filtrar.
 * Suma de Importe := SUM(\[Importe])
 
