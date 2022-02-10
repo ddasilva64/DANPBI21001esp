@@ -12,12 +12,18 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 **Modelado de datos**: Análisis complejos entre varias tablas conectadas por un campo en común
 
+### Relaciones y filtros
+
 **Relaciones entre tablas**
 
 * **Primary keys (claves primarias)**: Se utilizan para definir la clave principal de la tabla. Las columnas que tienen este perfil no pueden contener valores nulos ni puede haber valores duplicados. Es decir, debe contener registros únicos
 * **Foreign keys (claves foráneas)**: Una clave foránea es una columna o conjunto de columnas, que contiene valor que hace referencia a una fila de otra tabla
 
-### Relaciones y filtros
+**Tipos de relaciones**:
+
+* **1:1 (de 1 a 1)**: Ambas tablas se conectan por sus claves primarias. Actúa como una extensión de estas
+* **1:n (de 1 a varios)**: Ocurre cuando se conecta una clave primaria con la clave foránea de otra tabla
+* **m:n (de varios a varios)**: Ocurre cuando ambas tablas se relacionan por sus claves foráneas (ninguna de las columnas tiene valores únicos). Evitar este tipo de relaciones
 
 El modelo de datos se puede hacer de dos maneras; uno que es el modelo estrella y el otro, llamado copo de nieve o algo parecido a una cascada
 
