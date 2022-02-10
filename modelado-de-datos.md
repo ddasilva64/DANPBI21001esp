@@ -10,7 +10,7 @@
 
 ETL se maneja con Power Query, mientras que el modelado de datos se realiza con Power Pivot
 
-El modelado de datos en Power BI se centra en realizar análisis complejos en varias tablas conectadas por un campo común
+**Modelado de datos**: Análisis complejos entre varias tablas conectadas por un campo en común
 
 ### Relaciones y filtros
 
