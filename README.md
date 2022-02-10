@@ -41,3 +41,5 @@ El español es el cuarto idioma más hablado en el mundo. ¡Eso es todo amigos!
 [Portafolio profesional (inglés) - GitHub -](https://github.com/ddasilva64)\
 Notas, comentarios de libros, etc. (inglés/español) - GitBook -\
 [Perfil profesional (inglés) - LinkedIn -](https://linkedin.com/in/daniel-da-silva-jarque-863705206)
+
+Los ejemplos del curso están disponibles en GitHub
