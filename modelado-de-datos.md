@@ -132,3 +132,4 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Suma de Importe 1 := SUMX(Tabla1; \[Importe])
 * Podemos observar que las dos funciones devuelven el mismo resultado.Lo que diferencia a ambas funciones es la forma en que realizan el calculo:La función SUMX es un iterador, recorrerá cada fila evaluando una expresión mientras que la función SUM() sumará directamente los valores de la columna.Para este caso la función SUM() es la recomendada
 
+aaaaaaaaa
