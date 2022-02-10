@@ -15,6 +15,4 @@
    1. Línea promedio 1: Cantidad ventas
    2. Línea promedio 2: Total ventas
 
-Con el botón play (esquina inferior izquierda), reproduce la evolución cada uno de los meses del año seleccionado.
-
 ### Análisis de datos con Python/R
