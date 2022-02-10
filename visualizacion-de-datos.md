@@ -7,7 +7,7 @@
 
 ### Crear visualizaciones
 
-Elegir la visualización correcta es una de las partes más importantes de nuestro proyecto: Comunicar nuestras ideas o descubrimientos a un público más amplio de forma dinámica.
+Elegir la visualización correcta es una de las partes más importantes de nuestro proyecto: Comunicar nuestras ideas o descubrimientos a un público más amplio de forma dinámica
 
 * Menos es más
 * Los colores son importantes, úsalos bien
@@ -21,10 +21,10 @@ Elegir la visualización correcta es una de las partes más importantes de nuest
 
 **¿Qué es un informe?**
 
-Es la colección de páginas segmentadas por un tema en particular y ofrece una vista resumida e interactiva con la capacidad de filtrar según las necesidades del usuario.
+Es la colección de páginas segmentadas por un tema en particular y ofrece una vista resumida e interactiva con la capacidad de filtrar según las necesidades del usuario
 
-**Narración de datos con Power BI**
+**Storytelling con Power BI**
 
 * **Marcadores**: Guardan la configuración de la vista actual del informe
 * **Botones**: Permite activar una acción de nuestro reporte
-* **Información sobre herramientas avanzada**: permite mostrar detalles adicionales a nuestras visualizaciones
+* **Información sobre herramientas avanzada**: Permite mostrar detalles adicionales a nuestras visualizaciones
