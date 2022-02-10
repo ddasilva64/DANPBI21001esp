@@ -33,6 +33,11 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
    2. Pueden ser relaciones no resueltas m:n&#x20;
    3. Muy interesante la herramienta Model Documenter
 
+**Diseño de modelos de datos**:
+
+* Existen distintos tipos (estrella, copo de nieve, etc.)
+* En **Power BI** nos enfocamos en el modelo de **esquema de estrella**, que es el que resulta más eficiente
+
 El modelo de datos se puede hacer de dos maneras; uno que es el modelo estrella y el otro, llamado copo de nieve o algo parecido a una cascada
 
 **Para ello es necesario conocer dos aspectos claves**
