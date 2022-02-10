@@ -15,4 +15,8 @@
    1. Línea promedio 1: Cantidad ventas
    2. Línea promedio 2: Total ventas
 
+![Ejemplo 2 de analítica de datos](https://i.imgur.com/nNyFaZH.png)
+
+###
+
 ### Análisis de datos con Python/R
