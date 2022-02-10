@@ -15,6 +15,8 @@
    1. Línea promedio 1: Cantidad ventas
    2. Línea promedio 2: Total ventas
 
+Con el botón de reproducción (esquina inferior izquierda), reproduce la evolución de cada mes del año seleccionado
+
 ![Ejemplo 2 de analítica de datos](https://i.imgur.com/nNyFaZH.png)
 
 **Detalles gráfico 1**
