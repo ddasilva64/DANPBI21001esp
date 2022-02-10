@@ -132,4 +132,23 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Suma de Importe 1 := SUMX(Tabla1; \[Importe])
 * Podemos observar que las dos funciones devuelven el mismo resultado.Lo que diferencia a ambas funciones es la forma en que realizan el calculo:La función SUMX es un iterador, recorrerá cada fila evaluando una expresión mientras que la función SUM() sumará directamente los valores de la columna.Para este caso la función SUM() es la recomendada
 
-aaaaaaaaa
+2\. Calcular la suma del Importe del modelo anterior solo para la categoría vino blanco
+
+**SUM**:
+
+* La función SUM() no nos permite filtrar las filas de la tabla sobre la que queremos realizar el cálculo y debemos combinarla con la función CALCULATE(). Importe de vino blanco := CALCULATE(SUM(\[Importe]) ; Filter(Tabla1;\[Categoría]=”vino blanco”)) **SUMX**:
+* En cambio, la función SUMX () sí que nos lo permite: Importe frutas := SUMX(Filter(Tabla1; \[Categoría]=”vino blanco”); \[Importe])
+* En este caso pudiera usarse cualquiera de las dos, si se aplica de la manera mencionada
+
+3\. Calcular las ventas totales. En este modelo, a diferencia del anterior, no tenemos una columna con el importe de cada fila, pero podemos calcularlo usando las columnas Precio venta y Cantidad en la expresión:\[Precio venta]\*\[Cantidad]
+
+**SUM**:
+
+* Sintaxis: SUM(\[Precio venta]\*\[Cantidad])
+* La función SUM() nos devuelve un error porque solo admite como parámetro una columna
+
+**SUMX**:
+
+* En cambio, la función SUMX () sí que nos lo permite porque admite una expresión además de una columna:
+* Sintaxis: SUMX(Tabla2;\[Precio venta]\*\[Cantidad])
+* En este caso la función SUMX() es la recomendada
