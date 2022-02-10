@@ -169,3 +169,5 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * En cambio, la función SUMX () sí que nos lo permite porque admite una expresión además de una columna:
 * Sintaxis: SUMX(Tabla2;\[Precio venta]\*\[Cantidad])
 * En este caso la función SUMX() es la recomendada
+
+![Simulación 3 - SUMX -](https://i.imgur.com/uMKKIZh.png)
