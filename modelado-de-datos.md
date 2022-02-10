@@ -138,11 +138,11 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 
 ![Simulación 1 - SUM y SUMX -](https://i.imgur.com/W3gMtjR.png)
 
-2\. Calcular la suma del Importe del modelo anterior solo para la categoría vino blanco
+2\. Calcular la suma del Importe del modelo anterior solo para la categoría frutas
 
 **SUM**:
 
-* La función SUM() no nos permite filtrar las filas de la tabla sobre la que queremos realizar el cálculo y debemos combinarla con la función CALCULATE(). Importe de vino blanco := CALCULATE(SUM(\[Importe]) ; Filter(Tabla1;\[Categoría]=”vino blanco”))&#x20;
+* La función SUM() no nos permite filtrar las filas de la tabla sobre la que queremos realizar el cálculo y debemos combinarla con la función CALCULATE(). Importe de frutas := CALCULATE(SUM(\[Importe]) ; Filter(Tabla1;\[Categoría]=”frutas”))&#x20;
 
 ![Simulación 2 - SUM -](https://i.imgur.com/YD5FtQt.png)
 
@@ -154,6 +154,8 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 ![Simulación 2 - SUMX -](https://i.imgur.com/tui1lRs.png)
 
 3\. Calcular las ventas totales. En este modelo, a diferencia del anterior, no tenemos una columna con el importe de cada fila, pero podemos calcularlo usando las columnas Precio venta y Cantidad en la expresión:\[Precio venta]\*\[Cantidad]
+
+![Tabla de ventas por almacén](https://i.imgur.com/iwII5ml.png)
 
 **SUM**:
 
