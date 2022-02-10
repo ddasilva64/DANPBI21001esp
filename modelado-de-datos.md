@@ -70,11 +70,13 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Creado **para manipular un modelo de datos tabular**
 * Está basado en Excel; de ahí su similitud en términos de estructura de formulación. Podemos encontrar este lenguaje en Power BI, SAS Tabular y Excel en el plugin Power Query
 
-**¿Por qué DAX?**
+**¿Por qué DAX?**:
 
 * Relaciones de Navegación
-* Cálculo de Dimensiones
-* Gestión de las Dimensiones del Tiempo (Time Intelligence)
+* Pensado para llegar a mayor cantidad de usuarios
+* Cálculo dinámico de dimensiones, por ejemplo **Time Intelligence**
+* Menor curva de aprendizaje para los analistas de datos. Aprovecha el conocimiento existente de trabajar con fórmulas Excel
+  * Por ejemplo: = IF (Ventas > 0, “GANÓ”, “PERDIÓ”)
 
 **¿Qué podemos crear?**
 
