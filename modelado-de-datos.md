@@ -84,11 +84,10 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * **Tablas Calculadas**: Crea una tabla derivada de otra tabla. Por ejemplo, este sistema nos permite crear tablas sin duplicados de un campo de otra tabla, para romper relaciones m:n
 * **Medidas**: Admite inteligencia de tiempo y crea cálculos dinámicos, que es lo más utilizado en Power BI
 
-**Convenciones del idioma (formato general)**
+**Convenciones del lenguaje (formato general)**:
 
-* 'nombre de tabla' \[nombre de columna] Ejemplo: 'productos de mesa'\[Precio]
-
-El nombre de la tabla se puede omitir cuando se usa en columnas calculadas, pero no se recomienda hacerlo.
+* 'nombre de tabla' \[nombre de columna] Ejemplo: 'Tabla productos'\[Precio]
+* El nombre de la tabla se puede omitir cuando se usa en columnas calculadas, pero no se recomienda hacerlo.
 
 ### Usar CALCULATE
 
