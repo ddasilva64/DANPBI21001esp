@@ -136,19 +136,24 @@ ETL se maneja con Power Query, mientras que el modelado de datos se realiza con 
 * Suma de Importe 1 := SUMX(Tabla1; \[Importe])
 * Podemos observar que las dos funciones devuelven el mismo resultado.Lo que diferencia a ambas funciones es la forma en que realizan el calculo:La función SUMX es un iterador, recorrerá cada fila evaluando una expresión mientras que la función SUM() sumará directamente los valores de la columna.Para este caso la función SUM() es la recomendada
 
-![Resultado de la simulación 1](https://i.imgur.com/W3gMtjR.png)
+![Simulación 1 - SUM y SUMX -](https://i.imgur.com/W3gMtjR.png)
 
 2\. Calcular la suma del Importe del modelo anterior solo para la categoría vino blanco
 
 **SUM**:
 
-* La función SUM() no nos permite filtrar las filas de la tabla sobre la que queremos realizar el cálculo y debemos combinarla con la función CALCULATE(). Importe de vino blanco := CALCULATE(SUM(\[Importe]) ; Filter(Tabla1;\[Categoría]=”vino blanco”)) **SUMX**:
+* La función SUM() no nos permite filtrar las filas de la tabla sobre la que queremos realizar el cálculo y debemos combinarla con la función CALCULATE(). Importe de vino blanco := CALCULATE(SUM(\[Importe]) ; Filter(Tabla1;\[Categoría]=”vino blanco”))&#x20;
+
+![Simulación 2 - SUM -](https://i.imgur.com/YD5FtQt.png)
+
+**SUMX**:
+
 * En cambio, la función SUMX () sí que nos lo permite: Importe frutas := SUMX(Filter(Tabla1; \[Categoría]=”vino blanco”); \[Importe])
 * En este caso pudiera usarse cualquiera de las dos, si se aplica de la manera mencionada
 
-3\. Calcular las ventas totales. En este modelo, a diferencia del anterior, no tenemos una columna con el importe de cada fila, pero podemos calcularlo usando las columnas Precio venta y Cantidad en la expresión:\[Precio venta]\*\[Cantidad]
+![Simulación 2 - SUMX -](https://i.imgur.com/tui1lRs.png)
 
-![Resultado de la simulación 2](https://i.imgur.com/YD5FtQt.png)
+3\. Calcular las ventas totales. En este modelo, a diferencia del anterior, no tenemos una columna con el importe de cada fila, pero podemos calcularlo usando las columnas Precio venta y Cantidad en la expresión:\[Precio venta]\*\[Cantidad]
 
 **SUM**:
 
