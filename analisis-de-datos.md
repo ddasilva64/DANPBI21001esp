@@ -45,15 +45,13 @@ Para hacer un ejemplo de script en R, descargar e instalar R y R Studio. Las url
 
 ![Obtenemos los datos del ejemplo de un fichero CSV](https://i.imgur.com/3SvvvNo.png)
 
-
-
 ![Cargamos el fichero deseado](https://i.imgur.com/uKPzu5t.png)
 
 ![Vamos a especificar datos y a crear una tabla (almacén) de medidas](https://i.imgur.com/6aO2Vbh.png)
 
 ![Tabla de medidas](https://i.imgur.com/gG51DZF.png)
 
-![Creamos nuestra primera medida](https://i.imgur.com/jwkDF6t.png)
+![Creamos una medida](https://i.imgur.com/jwkDF6t.png)
 
 Para comprobar la medida creamos una tabla y vemos que funciona OK
 
