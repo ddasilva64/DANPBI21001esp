@@ -38,3 +38,38 @@ Con el botón de reproducción (esquina inferior izquierda), reproduce la evoluc
    5. Transparencia: 80%
 
 ### Análisis de datos con Python/R
+
+Power BI ofrece la posibilidad de integrar herramientas de BI, con lenguajes como Python o R
+
+Para hacer un ejemplo de script en R, descargar e instalar R y R Studio. Las url estás disponibles en la sección  Lecturas o herramientas recomendadas
+
+![Obtenemos los datos del ejemplo de un fichero CSV](https://i.imgur.com/3SvvvNo.png)
+
+
+
+![Cargamos el fichero deseado](https://i.imgur.com/uKPzu5t.png)
+
+![Vamos a especificar datos y a crear una tabla (almacén) de medidas](https://i.imgur.com/6aO2Vbh.png)
+
+![Tabla de medidas](https://i.imgur.com/gG51DZF.png)
+
+![Creamos nuestra primera medida](https://i.imgur.com/jwkDF6t.png)
+
+Para comprobar la medida creamos una tabla y vemos que funciona OK
+
+![Tabla de comprobación de la medida](https://i.imgur.com/MhW7Rsx.png)
+
+![No resumir, para ver detalle de la edad](https://i.imgur.com/JyOolet.png)
+
+![La edad en detalle con la medida calculada](https://i.imgur.com/MfFb7H4.png)
+
+Ahora llevaremos estas dos variables a un gráfico hecho con R
+
+![Copiamos el script R que tenemos en un TXT](https://i.imgur.com/fjemhYv.png)
+
+![Habilitamos el script que vamos a crear](https://i.imgur.com/TF4PGrt.png)
+
+![Ahora llevamos las variables edad y suma de líneas (no resumido)](https://i.imgur.com/mcut0Rh.png)
+
+![Pegamos script y pulsamos play (esquina superior derecha)](https://i.imgur.com/Qdl4bUc.png)
+
